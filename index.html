@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="other/img/favicon.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="other/css/styles.css">
+    <script src="jquery-2.1.4.js"> </script>
+    <title>Portfolio - Nek</title>
+</head>
+
+<body>
+
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script>
+
+        $(window).on("load", function () {
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+
+    <header class="header" id="header">
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <img src="other/pics/logo.png"></img></a>
+            <!-- Nek <span>Manchanda</span> -->
+            </a>
+            <div class="navmenu" id="nav-menu">
+                <ul class="navlist">
+                    <li class="navitem">
+                        <a href="#" class="navitemlink active-link">Home</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#about" class="navitemlink">About me</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#skills" class="navitemlink">Skills</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#achievements" class="navitemlink">Achievements</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#contact" class="navitemlink">Contact me</a>
+                    </li>
+                </ul>
+                <div class="navclosebutton" id="close-navbar">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="navmenubutton" id="toggle-navbar">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home" id="home">
+            <div class="homecontainer grid">
+                <div class="home_pic">
+                    <image class="home_image" height="400" width="400" src="other/pics/0homepic.png"></image>
+                </div>
+
+                <div class="homecontent">
+                    <h3 class="homesubtitle">
+                        Hello,<span> I am </span> </h3>
+                    <h1 class="hometitle">Nek Manchanda</h1>
+                    <p class="homedesc">2nd year College student and an aspiring software developer</p>
+                </div>
+                <div></div>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/nek-manchanda-59b18b26b/" target="_blank" class="social_link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                    <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=f20210576@pilani.bits-pilani.ac.in"
+                        target="_blank" class="social_link">
+                        <i class="ri-mail-line"></i>
+                    </a>
+                    <a href="https://github.com/NekManchanda" target="_blank" class="social_link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                    <a href="https://www.instagram.com/nekkie_02" target="_blank" class="social_link"><i
+                            class="ri-instagram-line"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="aboutcontainer grid">
+                <div class="aboutcontent">
+                    <h3 class="aboutsubtitle">
+                        Time for an <span> Intro </span> </h3>
+                    <h1 class="abouttitle">About Me</h1>
+
+                    <p>Hey, I am Nek Manchanda, currently pursuing a Bachelors of Engineering degree in Computer Science
+                        at BITS Pilani, Pilani campus.
+                    </p>
+                    <p>I hail from the beautiful city of Chandigarh, and did my school education from St. Anne's Convent
+                        School,Chandigarh</p>
+                    <p>My primary focus has been Frontend Development and am actively learning other aspects of web development.
+                    </p>
+                    <a href="#contact" class="button"><button class="contact_button">Contact me</button></a>
+                </div>
+                <div class="about_pic">
+                    <img class="about_image" height="400" width="400" src="other/pics/aboutpic.png">
+                    </img>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="skillscontainer grid">
+                <div class="skillscontent">
+                    <h3 class="skillssubtitle">
+                        My <span>Tech Stack</span> </h3>
+                    <h1 class="skillstitle">Skills</h1>
+                    <p class="skillsdesc">Following is the list of programming languages I have become comfortable with
+                        through consistent practice and application</p>
+                </div>
+                <div class="skills_content">
+                    <ol class="skill_list">
+                        <li class="skill_item">HTML</li>
+                        <li class="skill_item">CSS</li>
+                        <li class="skill_item"> JavaScript</li>
+                        <li class="skill_item">C</li>
+                    </ol>
+                    <ol class="skill_list" start="5">
+                        <li class="skill_item">C++</li>
+                        <li class="skill_item">Python</li>
+                        <li class="skill_item">MySQL</li>
+                        <li class="skill_item">Java</li>
+                    </ol>
+                </div>
+
+            </div>
+        </section>
+        <section class="achievements grid" id="achievements">
+            <div class="achievementscontainer achievementsgrid">
+                <div class="achievementscontent">
+                    <h3 class="achievementssubtitle">
+                        Some <span>Numbers</span> </h3>
+                    <h1 class="achievementstitle">My Achievements</h1>
+                    <p>A timeline of my academic achievements</p>
+                    <div class="dots"></div>
+                    <div class="dots"></div>
+                    <div class="dots"></div>
+                    <section class="achievementstimeline" id="achievementstimeline">
+                        <ul>
+                            <li class="achievementlist">
+                                <div>
+                                    <time>2018</time>
+                                    <h5>Class X boards - 95.6 %</h5>
+                                </div>
+                            </li>
+                            <li class="achievementlist">
+                                <div>
+                                    <time>2020</time>
+                                    <h5>Class XII boards - 92.8 %</h5>
+                                </div>
+                            </li>
+                            <li class="achievementlist">
+                                <div>
+                                    <time>2021</time>
+                                    <h5>JEE Main - 892 AIR (99.93 %ile)</h5>
+                                </div>
+                            </li>
+                            <li class="achievementlist">
+                                <div>
+                                    <time>2021</time>
+                                    <h5>JEE Advance - 3247 AIR</h5>
+                                </div>
+                            </li>
+                            <li class="achievementlist">
+                                <div>
+                                    <time>2021</time>
+                                    <h5>BITSAT - 395/450 marks</h5>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="contact grid" id="contact">
+            <!-- <div>contact us</div> -->
+            <div class="contactcontainer contactgrid">
+                <div class="contactcontent">
+                    <!-- <h3 class="contactsubtitle">
+                     <span>Tech Stack</span> </h3> -->
+                    <h1 class="contacttitle">Contact Me</h1>
+                    <form name="to-sheets" class="contactform" id="contactform">
+                        <div class="contactformgrp">
+                            <input type="text" name="username" placeholder="Enter your Name" required
+                                class="contactformitem">
+                            <input type="email" name="mailID" placeholder="Enter your Email" class="contactformitem"
+                                required>
+                        </div>
+                        <textarea name="message" placeholder="Enter your Message" class="contactformitem"
+                            required></textarea>
+                        <p class="message" id="message"></p>
+                        <button class="contact_button">Send Message</button>
+                    </form>
+
+                </div>
+        </section>
+
+
+        <section class="discussion grid" id="discussion">
+            <h1 class="disctitle">Discussion</h1>
+            <h2>Topic : Opinion on the growing EV market</h2>
+            <form name="discform">
+                <div class="discgrid">
+                    <div class="discgriddata">
+                        <div class="entry-section">
+                            <label for="name">Name:</label>
+                            <input name="name" type="text" id="name" class="discitem" placeholder="Enter your name"
+                                required>
+                        </div>
+
+                        <div class="entry-section">
+                            <label for="comment">Your View: </label>
+                            <textarea name="opinions" id="comment" class="discitem"
+                                placeholder="Express yourself Freely" required></textarea>
+                        </div>
+                    </div>
+                    <div class="discgridsubmit">
+                        <div class="post-section">
+                            <input type="submit" value="Post" onclick="postComment()">
+                        </div>
+                        <div id="comment-section">
+                            <!-- responses comes here via JS -->
+                        </div>
+                    </div>
+                    <input name="time" id="timeinput" class="time" type="datetime">
+                </div>
+            </form>
+
+
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footercontainer grid">
+            <h1 class="footertitle">Nek M.</h1>
+            <!-- <h2 class="footersubtitle"></h2> -->
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/nek-manchanda-59b18b26b/" target="_blank" class="social_link">
+                    <i class="ri-linkedin-box-fill"></i>
+                </a>
+                <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=f20210576@pilani.bits-pilani.ac.in"
+                    target="_blank" class="social_link">
+                    <i class="ri-mail-line"></i>
+                </a>
+                <a href="https://github.com/NekManchanda" target="_blank" class="social_link">
+                    <i class="ri-github-line"></i>
+                </a>
+                <a href="https://www.instagram.com/nekkie_02" target="_blank" class="social_link"><i
+                        class="ri-instagram-line"></i></a>
+            </div>
+            <span class="copyright">
+                ©
+                <script>document.write(new Date().getFullYear())</script> Nek Manchanda. All rights reserved
+            </span>
+        </div>
+
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" id="top" class="top"><i class="ri-arrow-up-circle-fill"></i></a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""> </script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="other/js/main.js"></script>
+
+</body>
+
+</html>
